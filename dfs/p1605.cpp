@@ -35,4 +35,5 @@ int main (){
     }
     dfs(sx,sy);
     cout<<cnt;
+    return 0;
 }
