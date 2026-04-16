@@ -19,3 +19,21 @@ int main (){
     }
     cout<<cnt;
 }
+/*#include<bits/stdc++.h>
+#define int long long
+using namespace std;
+signed main(){
+    int ans=0;
+    for(int i=1;i<=901234;i++){
+        int x=(i-1)*567890+789456;
+        x-=654321;
+        x/=876543;
+        x++;
+        x=500001-x;
+        if(x<=0)break;
+        ans+=x;
+    }
+    cout<<ans;
+    return 0;
+}
+*/
